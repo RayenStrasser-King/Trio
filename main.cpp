@@ -39,7 +39,7 @@ void getIntegers (int& a, int& b, int& c)
                  smallest = c;
                 }
 
-                    else if(c >b)
+                    else if(c > b)
                     {
                             smallest = b;
                             middle = c;
@@ -56,8 +56,8 @@ void getIntegers (int& a, int& b, int& c)
                 }
                 else if (c > a)
                 {
-                        smallest = a;
                         middle = c;
+                        smallest = a;
                 }
         }
 
